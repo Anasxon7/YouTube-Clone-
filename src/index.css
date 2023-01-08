@@ -54,7 +54,6 @@ a {
   width: 350px;
   font-size: 18px;
   background-color: #121212;
-  text-transform: capitalize;
   color: #fff;
 }
 
@@ -75,7 +74,6 @@ a {
   background: transparent;
   outline: none;
   border: none;
-
   padding: 7px 15px;
   margin: 10px 0px;
   border-radius: 20px;
@@ -119,5 +117,17 @@ a {
   }
   .search-bar{
     width: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbarIcons{
+    display: none;
+  }
+  .search{
+    height: 40px;
+  }
+  .search-bar{
+    width: 70px;
   }
 }
